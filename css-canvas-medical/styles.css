@@ -1,0 +1,312 @@
+a:link {
+  text-decoration: none;
+  color: rgb(110 109 109);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(155 155 155);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(41 68 100);
+}
+
+a:active {
+  text-decoration: none;
+  color: rgb(41 68 100);
+  font-weight: bolder;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding-top: 0;
+  margin-top: 30px;
+}
+
+h1 {
+  font-family: "Tiempos Headline", sans-serif;
+}
+
+h1.large {
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  font-family: Avenir, sans-serif;
+}
+
+p.large {
+  color: white;
+  font-size: 18px;
+}
+
+.text-grey {
+  color: rgb(110 109 109);
+}
+
+.larger-text {
+  font-size: x-large;
+}
+
+.container {
+  margin: 2.5% 10%;
+}
+
+.nav-bar {
+  display: flex;
+  height: 40px;
+  margin: 0 5%;
+}
+
+.logo-wrapper {
+  height: 70%;
+  width: 50%;
+  margin: 10px 0 0 15px;
+}
+
+#logo {
+  height: 0;
+  min-height: 100%;
+}
+
+.nav-button-wrapper {
+  display: flex;
+  font-weight: 500;
+  font-family: Avenir, sans-serif;
+  font-size: 20px;
+  justify-content: right;
+  align-items: center;
+}
+
+.nav-link {
+  margin: 0 0.75em;
+}
+
+.margin-top {
+  margin-top: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-button {
+  font-family: Avenir, sans-serif;
+  font-size: 20px;
+  height: 50px;
+  width: 130px;
+  background-color: rgb(41 68 100);
+  color: white;
+  border-color: transparent;
+  border-radius: 5%;
+}
+
+.contact-button:hover {
+  background-color: rgb(58 58 58);
+  color: white;
+  border-color: transparent;
+}
+
+.hero {
+  display: flex;
+  padding: 0 5% 5%;
+}
+
+.image-darken {
+  filter: brightness(80%);
+}
+
+.column-25 {
+  flex-basis: calc(100% * 25);
+}
+
+.column-33 {
+  flex-basis: calc(100% * 33.3333);
+}
+
+.column-50 {
+  flex-basis: calc(100% * 2);
+}
+
+.column-75 {
+  flex-basis: calc(100% * 75);
+}
+
+.column-full {
+  width: 100%;
+}
+
+.items-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.items-left {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+.right-align {
+  display: flex;
+  justify-content: right;
+}
+
+.left-align {
+  display: flex;
+  justify-content: left;
+}
+
+#get-started-button {
+  display: flex;
+  position: absolute;
+  height: fit-content;
+}
+
+.get-started-wrapper {
+  display: flex;
+  position: absolute;
+  top: 140%;
+  left: 0%;
+}
+
+.get-started {
+  font-family: Avenir, sans-serif;
+  font-size: 20px;
+  height: 60px;
+  width: 200px;
+  background-color: rgb(41 68 100);
+  color: white;
+  border-color: transparent;
+  border-radius: 3%;
+}
+
+.get-started:hover {
+  background-color: rgb(58 58 58);
+  color: white;
+  border-color: transparent;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.background-grey {
+  background-color: rgb(250 250 250);
+}
+
+.margin {
+  margin: 10px 0 0;
+}
+
+.grey-box {
+  display: flex;
+  align-items: center;
+  height: 275px;
+}
+
+.grey-box-align-top {
+  display: flex;
+  align-items: top;
+  height: 275px;
+}
+
+.h1-no-bottom-margin {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.background-dark-grey {
+  background-color: rgb(68 67 67);
+}
+
+.margin-bottom {
+  margin-bottom: 40px;
+}
+
+.footer-padding {
+  padding-left: 10%;
+}
+
+.dark-grey-box {
+  display: flex;
+  align-items: center;
+  height: 400px;
+}
+
+.logo-white {
+  width: 50%;
+  height: 50%;
+}
+
+.h2-footer {
+  font-family: Avenir, sans-serif;
+  margin-top: 0;
+}
+
+.p-font-white {
+  color: rgb(255 255 255);
+}
+
+.footer-title-wrapper {
+  margin-bottom: 15%;
+}
+
+.footer-content-wrapper {
+  height: 100px;
+}
+
+a.footer-link {
+  color: white;
+}
+
+a.footer-link:hover {
+  text-decoration: none;
+  color: rgb(182 182 182);
+}
+
+.footer-terms {
+  height: 100px;
+  width: 100%;
+  padding-left: 5%;
+  padding-top: 3%;
+  font-family: Avenir, sans-serif;
+  font-weight: 500;
+  font-size: large;
+}
+
+.padding-left {
+  padding-left: 10px;
+}
+
+.hero-text-wrapper {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
