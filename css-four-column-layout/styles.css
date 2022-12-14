@@ -1,0 +1,36 @@
+h1 {
+  margin: 0 0 2%;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+img {
+  width: 100%;
+}
+
+.background-light-grey {
+  background-color: rgb(246 246 246);
+}
+
+.container {
+  font-family: Barlow, sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+.bottom-image {
+  width: 20%;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.column-full {
+  width: 100%;
+}
