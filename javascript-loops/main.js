@@ -9,22 +9,18 @@
 function getNumbersToTen() {
   var numbers = [];
   var currentNumber = 1;
-  var i = 0;
-  while (i < 10) {
+  while (currentNumber <= 10) {
     numbers.push(currentNumber);
     currentNumber++;
-    i++;
   }
   return numbers;
 }
 function getEvenNumbersToTwenty() {
   var evenNumbers = [];
   var currentNumber = 2;
-  var i = 0;
-  while (i < 10) {
+  while (currentNumber <= 20) {
     evenNumbers.push(currentNumber);
     currentNumber += 2;
-    i++;
   }
   return evenNumbers;
 }
