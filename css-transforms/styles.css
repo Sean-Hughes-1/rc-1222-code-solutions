@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.pokeball-row {
+  max-width: 996px;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pokeball-wrapper {
+  text-align: center;
+}
+
+img.pokeball {
+  max-width: 100px;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+.pokeball-row .pokeball-wrapper:first-child img.pokeball {
+  transform: rotate(30deg);
+}
+
+.pokeball-row .pokeball-wrapper:last-child img.pokeball {
+  transform: rotate(-30deg);
+}
+
+button {
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.25rem;
+  color: white;
+  background-color: gray;
+}
+
+button:active {
+  margin-top: 0.25em;
+}
+
+button:focus {
+  outline: none;
+}
