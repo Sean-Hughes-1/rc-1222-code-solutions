@@ -1,0 +1,77 @@
+* {
+  font-family: inter, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: 500px;
+  outline: none;
+  margin: 0 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 30%;
+}
+
+hr {
+  width: 90px;
+  height: 3px;
+  background: rgb(199 1 1);
+}
+
+span {
+  color: black;
+  font-size: 80px;
+  margin-top: 5%;
+}
+
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.wrong {
+  color: red;
+  animation: blinker 1s linear infinite;
+  font-weight: bold;
+  background-color: rgb(255 0 0 / 40.7%);
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  margin: 40px 10px 0;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+table {
+  border: 1px solid #b3adad;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table th {
+  border: 1px solid #b3adad;
+  padding: 5px;
+  background: #f0f0f0;
+  color: #313030;
+}
+
+table td {
+  border: 1px solid #b3adad;
+  text-align: center;
+  padding: 5px;
+  background: #fff;
+  color: #313030;
+}
