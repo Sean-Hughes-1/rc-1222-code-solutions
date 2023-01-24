@@ -10,22 +10,18 @@ switch (operator) {
   case 'plus':
     result = add(num1, num2);
     console.log('result: ', result);
-    result = 0;
     break;
   case 'minus':
     result = subtract(num1, num2);
     console.log('result: ', result);
-    result = 0;
     break;
   case 'times':
     result = multiply(num1, num2);
     console.log('result: ', result);
-    result = 0;
     break;
   case 'over':
     result = divide(num1, num2);
     console.log('result: ', result);
-    result = 0;
     break;
   default:
     console.log('Invalid Operation. Valid operators: plus, minus, times, over');
