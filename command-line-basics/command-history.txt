@@ -1,0 +1,500 @@
+   42  git pull origin main
+   43  git status
+   44  git branch css-flexbox
+   45  git switch css-flexbox
+   46  git status
+   47  git status
+   48  git add css-flexbox
+   49  git status
+   50  git commit -m "Sean Hughes - Completed css-flexbox excercise"
+   51  git status
+   52  git push origin css-flexbox
+   53  git switch main
+   54  git pull origin main
+   55  git pull origin main
+   56  git branch css-layout-classes
+   57  git switch css-layout-classes
+   58  git status
+   59  git status
+   60  git add css-layout-classes
+   61  git commit -m "Sean Hughes - Completed css-layout-classes excercise."
+   62  git status
+   63  git commit -m "Sean Hughes - completed css-layout-classes"
+   64  git status
+   65  git add css-layout-classes
+   66  git status
+   67  git commit -m "Sean Hughes - Completed css-layout-classes"
+   68  git push origin css-layout-classes
+   69  git status
+   70  git switch main
+   71  git pull origin main
+   72  git branch css-three-column-layout
+   73  git switch css-three-column-layout
+   74  <p class="text-white text-center">
+   75  git status
+   76  git add css-three-column-layout
+   77  git status
+   78  git commit -m "Sean Hughes - Completed css-three-column-layout"
+   79  git push origin css-three-column-layout
+   80  git status
+   81  git switch main
+   82  git branch css-two-column-layout
+   83  git switch css-two-column-layout
+   84  git status
+   85  git status
+   86  git add css-two-column-layout
+   87  git status
+   88  git commit -m "Sean Hughes - Completed css-two-column-layout"
+   89  git status
+   90  git push origin css-two-column-layout
+   91  git switch main
+   92  git pull origin main
+   93  git pull origin main
+   94  git branch css-positioning
+   95  git switch css-positioning
+   96  git status
+   97  git add css-postioning
+   98  git add css-positioning
+   99  git status
+  100  git commit -m "Sean Hughes - Completed css-positioning"
+  101  git push origin css-positioning
+  102  git status
+  103  git switch main
+  104  git switch main
+  105  git pull origin main
+  106  git pull origin main
+  107  git switch css-positioning
+  108  git switch main
+  109  git status
+  110  git branch css-canvas-medical
+  111  git switch css-canvas-medical
+  112  git status
+  113  git add css-canvas-medical
+  114  git status
+  115  git commit -m "Sean Hughes - Completed css-canvas-medical excercise."
+  116  git push origin css-canvas-medical
+  117  git status
+  118  git switch main
+  119  git pull origin main
+  120  git branch javascript-primitives-and-variables
+  121  git switch javascript-primitives-and-variables
+  122  git status
+  123  git add javascript-primitives-and-variables
+  124  git status
+  125  git commit -m "Sean Hughes - completed javascript-primitives-and-variables
+  126  git status
+  127  "
+  128  git status
+  129  git push origin javascript-primitives-and-variables
+  130  git status
+  131  git add javascript-primitives-and-variables
+  132  git status
+  133  git commit -m "Sean Hughes - changed operator from + to comma in console.log statements"
+  134  git push origin javascript-primitives-and-variables
+  135  git switch main
+  136  git pull origin main
+  137  git switch css-canvas-medical
+  138  git switch main
+  139  git pull origin main
+  140  git status
+  141  git branch javascript-operators-and-expressions
+  142  git switch javbascript-operators-and-expressions
+  143  git status
+  144  git status
+  145  git pull origin main
+  146  git status
+  147  git branch --delete javascript-operators-and-equations
+  148  git status
+  149  git status
+  150  git branch --list
+  151  git status
+  152  git branch javascript-methods
+  153  git switch javascript-methods
+  154  git status
+  155  git status
+  156  git add javascript-methods
+  157  git status
+  158  git commit -m "Sean Hughes - Completed javascript-methods"
+  159  git push origin javascript-methods
+  160  git switch main
+  161  git pull origin main
+  162  git status
+  163  git branch javascript-if
+  164  git switch javascript-if
+  165  git status
+  166  git add javascript-if
+  167  git status
+  168  git commit -m "Sean Hughes - Completed javascript-if"
+  169  git push origin javascript-if
+  170  git status
+  171  git switch main
+  172  git pull origin main
+  173  git branch css-ecomerce-page
+  174  git switch css-ecomerce-page
+  175  git status
+  176  git add css-ecomerce-page
+  177  git add css-ecommerce-page
+  178  git status
+  179  git commit -m "Sean Hughes - completed css-ecommerce-page"
+  180  git status
+  181  git add css-ecommerce-page
+  182  git status
+  183  git commit -m "Sean Hughes - completed css-ecommerce-page"
+  184  git push origin css-ecomerce-page
+  185  git status
+  186  git add css-ecommerce-page
+  187  git status
+  188  git commit -m "Sean Hughes - fixed styling issue"
+  189  git push origin css-ecomerce-page
+  190  git branch -M css-ecommerce-page
+  191  git push origin css-ecommerce-page
+  192  git switch main
+  193  git pull origin main
+  194  git branch javascript-loops
+  195  git switch javascript-loops
+  196  git status
+  197  git add javascript-loops
+  198  git status
+  199  git commit -m "Sean Hughes - completed javascript-loops"
+  200  git push origin javascript-loops
+  201  git status
+  202  git add javascript-loops
+  203  git commit -m "Sean Hughes - removed extra iteration"
+  204  git status
+  205  git push origin javasript-loops
+  206  git push origin javascript-loops
+  207  git status
+  208  git switch main
+  209  git pull origin main
+  210  git status
+  211  git branch javascript-loops-practice
+  212  git switch javascript-loops-practice
+  213  git status
+  214  git status
+  215  git add javascript-loops-practice
+  216  git status
+  217  git commit -m "Sean Hughes - completed javascript-loops-practice"
+  218  git push origin javascript-loops-practice
+  219  git status
+  220  git switch main
+  221  git pull origin main
+  222  git branch array-manipulation-1
+  223  git switch array-manipulation-1
+  224  git status
+  225  git add array-manipulation-1
+  226  git status
+  227  git commit -m "Sean Hughes - completed array-manipulation-1"
+  228  git push origin array-manipulation-1
+  229  git status
+  230  git switch main
+  231  git pull origin main
+  232  git branch string-manipulation-1
+  233  git switch string-manipulation-1
+  234  git status
+  235  git add string-manipulation-1
+  236  git status
+  237  git commit -m "Sean Hughes - completed string-manipulation-1"
+  238  git push origin string-manipulation-1
+  239  git status
+  240  git switch main
+  241  git pull origin main
+  242  git branch object-manipulation-1
+  243  git switch object-manipulation-1
+  244  git status
+  245  git status
+  246  git add object-manipulation-1
+  247  git status
+  248  git commit -m "Sean Hughes - completed object-manipulation-1"
+  249  git push origin object-manipulation-1
+  250  git status
+  251  git switch main
+  252  git status
+  253  git pull origin main
+  254  git branch array-manipulation-2
+  255  git switch array-manipulation-2
+  256  git status
+  257  git status
+  258  git add array-manipulation-2
+  259  git status
+  260  git commit -m "Sean Hughes - completed array-manipulation-2"
+  261  git push origin array-manipulation-2
+  262  git status
+  263  git switch main
+  264  git pull origin main
+  265  git pull origin main
+  266  git branch dom-querying
+  267  git switch dom-querying
+  268  git status
+  269  git add dom-querying
+  270  git status
+  271  git commit -m "Sean Hughes - Completed dom-querying"
+  272  git status
+  273  git push origin dom-querying
+  274  git switch main
+  275  git branch css-transforms
+  276  git switch branch css-transforms
+  277  git switch css-transforms
+  278  git status
+  279  git add css-transforms
+  280  git status
+  281  git commit -m "Sean Hughes - completed css-transforms"
+  282  git status
+  283  git add css-transforms
+  284  git status
+  285  git commit -m "Sean hughes - completed css-transforms"
+  286  git push origin css-transforms
+  287  git switch main
+  288  git pull origin main
+  289  git branch dom-events
+  290  git switch dom-events
+  291  git status
+  292  git add dom-events
+  293  git commit -m "Sean Hughes - completed dom-events"
+  294  git push origin dom-events
+  295  git switch main
+  296  git pull origin main
+  297  git branch string-manipulation-2
+  298  git switch string-manipulation-2
+  299  git switch main
+  300  git branch dom-manipulation
+  301  git switch dom-manipulation
+  302  git status
+  303  git add dom-manipulation
+  304  git status
+  305  git commit -m "Sean Hughes - completed dom-manipulation"
+  306  git push origin dom-manipulation
+  307  git status
+  308  git switch main
+  309  git switch string-manipulation-2
+  310  git switch main
+  311  git status
+  312  git status
+  313  git pull origin main
+  314  git switch javascript-lightbulb
+  315  git switch javascript-light-bulb
+  316  git status
+  317  git branch javascript-light-bulb
+  318  git switch javascript-light-bulb
+  319  git status
+  320  git add javascript-light-bulb
+  321  git status
+  322  git commit -m "Sean Hughes - completed javascript-light-bulb"
+  323  git push origin javascript-light-bulb
+  324  git status
+  325  git switch main
+  326  git pull origin main
+  327  git pull origin main
+  328  git branch javascript-forms
+  329  git switch javascript-forms
+  330  git status
+  331  git add javascript-forms
+  332  git commit -m "Sean hughes - completed javascript-forms"
+  333  git push origin javascript-forms
+  334  git status
+  335  git switch main
+  336  git pull origin main
+  337  git branch css-transitions
+  338  git switch css-transitions
+  339  git status
+  340  git add css-transitions
+  341  git status
+  342  git commit -m "Sean Hughes - completed css-transitions"
+  343  git push origin css-transitions
+  344  git status
+  345  git status
+  346  git switch main
+  347  git branch dom-creation
+  348  git switch dom-creation
+  349  git status
+  350  git add dom-creation
+  351  git commit -m "Sean Hughes - completed dom-creation"
+  352  git push origin dom-creation
+  353  git switch main
+  354  git pull origin main
+  355  git branch css-media-queries
+  356  git switch css-media-queries
+  357  git status
+  358  git add css-media-queries
+  359  git commit -m "Sean Hughes - completed css-media-queries"
+  360  git push origin css-media-queries
+  361  git status
+  362  git switch main
+  363  git pull origin main
+  364  git branch javascript-modal
+  365  git switch javascript-modal
+  366  git status
+  367  git add javascript-modal
+  368  git status
+  369  git commit -m "Sean Hughes - completed javascript-modal"
+  370  git push origin javascript-modal
+  371  git status
+  372  git switch main
+  373  git pull origin main
+  374  git branch dom-event-delegation
+  375  git switch dom-event-delegation
+  376  git status
+  377  git add dom-event-delegation
+  378  git status
+  379  git commit -m "Sean Hughes - completed dom-event-delegation"
+  380  git push origin dom-event-delegation
+  381  git switch main
+  382  git pull origin main
+  383  git branch javascript-view-swapping
+  384  git switch javascript-view-swapping
+  385  git status
+  386  git add javascript-view-swapping
+  387  git status
+  388  git commit -m "javascript-view-swapping"
+  389  git push origin javascript-view-swapping
+  390  git status
+  391  git switch main
+  392  git pull origin main
+  393  git branch javascript-typing-tutor
+  394  git switch javascript-typing-tutor
+  395  git switch main
+  396  git pull origin main
+  397  git branch css-responsive-layout
+  398  git switch css-responsive-layout
+  399  git status
+  400  git add css-responsive-layout
+  401  git status
+  402  git commit -m "sean hughes - comlpeted css-responsive-layout"
+  403  git push origin css-responsive-layout
+  404  git status
+  405  git switch javascript-typing-tutor
+  406  git status
+  407  git add javascript-typing-tutor
+  408  git status
+  409  git commit -m "Sean Hughes - completed javascript-typing-tutor"
+  410  git status
+  411  git add javascript-typing-tutor
+  412  git status
+  413  git commit -m "Sean hughes - completed javascript-typing-tutor"
+  414  git push origin javascript-typing-tutor
+  415  git switch main
+  416  git branch javascript-and-json
+  417  git switch javascript-and-json
+  418  git status
+  419  git add javascript-and-json
+  420  git status
+  421  git commit -m "Sean Hughes - completed javascript-and-json"
+  422  git push origin javascript-and-json
+  423  git switch main
+  424  git pull origin main
+  425  git branch javascript-local-storage
+  426  git switch javascript-local-storage
+  427  git status
+  428  git add javascript-local-storage
+  429  git status
+  430  git commit -m "Sean Hughes - completed javascript-local-storage"
+  431  git push origin javascript-local-storage
+  432  git switch main
+  433  git pull origin main
+  434  git branch string-manipulation-2
+  435  git switch string-manipulation-2git switch string-manipulation-2
+  436  git switch string-manipulation-2
+  437  git status
+  438  git add string-manipulation-2
+  439  git status
+  440  git commit -m "Sean Hughes - completed string-manipulation-2"
+  441  git push origin string-manipulation-2
+  442  git switch main
+  443  git pull origin main
+  444  git branch object-manipulation-2
+  445  git switch object-manipulation-2
+  446  git status
+  447  git add object-manipulation-2
+  448  git commit -m "Sean Hughes - completed object-manipulation-2"
+  449  git push origin object-manipulation-2
+  450  git switch main
+  451  git pull origin main
+  452  git pull origin main
+  453  git branch javascript-custom-methods
+  454  git switch javascript-custom-methods
+  455  git status
+  456  git add javascript-custom-methods
+  457  git status
+  458  git commit -m "Sean Hughes - completed javascript-custom-methods"
+  459  git push origin javascript-custom-methods
+  460  git switch main
+  461  git pull origin main
+  462  git status
+  463  git branch javascript-this
+  464  git switch javascript-this
+  465  git status
+  466  git add javascript-this
+  467  git status
+  468  git commit -m "Sean Hughes - completed javascript-this"
+  469  git push origin javascript-this
+  470  git switch main
+  471  git pull origin main
+  472  git branch javascript-prototypes
+  473  git switch javascript-prototypes
+  474  git status
+  475  git add javascript-prototypes
+  476  git status
+  477  git commit -m "Sean Hughes - completed javascript-prototypes"
+  478  git push origin javascript-prototypes
+  479  git switch main
+  480  man pwd
+  481  pwd
+  482  cd command-line-basics
+  483  pwd
+  484  pwd > i-was-here.txt
+  485  ls
+  486  echo hello world
+  487  echo 'Hello World!' > hello.txt
+  488  ls
+  489  touch tag-youre-it.txt
+  490  cd snoot
+  491  touch boop.txt
+  492  ls
+  493  cd command-line-basics
+  494  cd
+  495  ls
+  496  ls
+  497  cd command-line-basics
+  498  cd workspaces/rc-1222-code-solutions
+  499  ls
+  500  dir
+  501  cd command-line-basics
+  502  mkdir parent
+  503  ls
+  504  man mkdir
+  505  mkdir child -p
+  506  ls
+  507  mkdir -p grandchild
+  508  ls
+  509  mkdir -p parent/child/grandchild
+  510  ls
+  511  cd parent
+  512  ls
+  513  cd grandchild
+  514  cd child
+  515  ls
+  516  cd grandchild
+  517  touch .gitkeep
+  518  ls
+  519  lsd
+  520  ls
+  521  ls -a
+  522  cd ..
+  523  cd..
+  524  cd ..
+  525  cd ..
+  526  man mv
+  527  man mv
+  528  mv pokiemans pokemon
+  529  ls
+  530  rm lol.txt
+  531  ls
+  532  rm -r kill-me
+  533  ls
+  534  cp and-then.txt
+  535  cp and-then.txt no-and-then.txt
+  536  ls
+  537  cat and-then.txt
+  538  cat no-and-then.txt
+  539  history
+  540  cp history command-history.txt
+  541  history > command-history.txt
