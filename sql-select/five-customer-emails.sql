@@ -3,4 +3,4 @@ SELECT "customerId",
 "lastName",
 "email"
 From "customers"
-LIMIT 5
+LIMIT 5;

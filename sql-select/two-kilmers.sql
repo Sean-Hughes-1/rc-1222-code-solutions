@@ -3,4 +3,4 @@ SELECT "actorId",
 FROM "actors"
 WHERE "lastName" = 'Kilmer'
 
-LIMIT 2
+LIMIT 2;

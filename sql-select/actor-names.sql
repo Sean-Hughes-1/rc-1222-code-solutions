@@ -1,4 +1,4 @@
 SELECT "actorId",
 "firstName",
 "lastName"
-FROM "actors"
+FROM "actors";

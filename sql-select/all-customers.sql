@@ -1,2 +1,2 @@
 SELECT *
-FROM "customers"
+FROM "customers";

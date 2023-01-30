@@ -1,2 +1,2 @@
 SELECT *
-FROM "actors"
+FROM "actors";

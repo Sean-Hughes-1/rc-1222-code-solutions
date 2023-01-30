@@ -1,4 +1,4 @@
 SELECT "filmId",
 "title"
 FROM "films"
-WHERE "rentalRate" < 1
+WHERE "rentalRate" < 1;

@@ -1,3 +1,3 @@
 SELECT *
 FROM "castMembers"
-WHERE "actorId" = 40
+WHERE "actorId" = 40;

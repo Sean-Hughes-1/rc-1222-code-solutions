@@ -3,4 +3,4 @@ SELECT "title",
 "releaseYear"
 FROM "films"
 WHERE "releaseYear" = 2006
-LIMIT 20
+LIMIT 20;

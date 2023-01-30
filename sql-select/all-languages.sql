@@ -1,2 +1,2 @@
 SELECT *
-FROM "languages"
+FROM "languages";
