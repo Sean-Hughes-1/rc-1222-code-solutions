@@ -32,7 +32,7 @@ export class RegistrationForm extends React.Component {
         <label htmlFor='uname'>User name: </label><br />
         <input type='text' id='uname' name='uname' onChange={this.handleUserNameChange} value={this.state.username} /><br />
         <label htmlFor='pass'>Password: </label><br />
-        <input type='text' id='pass' name='pass' onChange={this.handlePasswordChange}/><br /><br />
+        <input type='text' id='pass' name='pass' onChange={this.handlePasswordChange} value={this.state.pass} /><br /><br />
         <button type='submit' onClick={this.handleSubmit}>Submit</button>
       </form>
     );
