@@ -1,0 +1,26 @@
+.toggle-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid grey;
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  border: 2px solid grey;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.off {
+  background-color: grey;
+}
+
+.on {
+  display: flex;
+  justify-content: flex-end;
+  background-color: green;
+}
