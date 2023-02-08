@@ -8,6 +8,7 @@ export default class StopWatch extends React.Component {
       count: 0
     };
     this.intervalId = null;
+    this.classModifier = 'fa-solid fa-play';
     this.handleClick = this.handleClick.bind(this);
     this.resetTimer = this.resetTimer.bind(this);
   }
@@ -28,12 +29,12 @@ export default class StopWatch extends React.Component {
   }
 
   toggleButton() {
-    const button = document.querySelector('.fa-solid');
-    if (button.className === 'fa-solid fa-play') {
-      button.className = 'fa-solid fa-pause';
+    if (this.state.start) {
+      this.classModifier = 'fa-solid fa-play';
     } else {
-      button.className = 'fa-solid fa-play';
+      this.classModifier = 'fa-solid fa-pause';
     }
+    return this.classModifier;
   }
 
   stateToggle() {
@@ -56,7 +57,7 @@ export default class StopWatch extends React.Component {
     return (
       <div className='watch-container' onClick={this.resetTimer}>
         <div className='stop-watch'>{this.state.count}</div>
-        <i className='fa-solid fa-play' onClick={this.handleClick}></i>
+        <i className={this.classModifier} onClick={this.handleClick}></i>
       </div>
     );
   }
