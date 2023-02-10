@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  padding: 0 0 1rem 1rem;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+}
+
+.grey {
+  background-color: rgb(14 14 14 / 52.6%);
+}
+
+.background {
+  height: 100vh;
+  width: 100%;
+}
+
+.sidebar-menu {
+  width: 250px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.fa-bars {
+  padding: 1rem 0 1rem 1rem;
+}
+
+.fa-bars:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
