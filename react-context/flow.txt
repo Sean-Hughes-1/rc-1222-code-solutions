@@ -1,0 +1,152 @@
+auth-form.jsx:
+
+imports the useState method from react
+
+export default the authform function which means it can be used in any other 
+component that imports it.
+
+within the Authform function we aer passing in 2 parameters, action and onSignIn
+
+nest we are destructuring from useState the params password and username and the functions
+setUsernam and setPassword
+
+Next we are handling the submit event by taking in the event as a parameter
+
+we immediately fire event.preventdefault to stop the default action of the form.
+
+next we are using fetch to send the action parameter to the endpoint api/auth/action
+we are conditionally setting the route next
+
+then returning the form itself to the DOM
+------------------------------------------------------------------------------------
+navbar.jsx:
+
+First, we are importing the useContext object from react as well as the AppContext
+object from our file location.
+
+We are defininig a function Navbar and exporting default.
+
+next we are destructuring from AppContext a parameter and a function
+
+next we are returning the navbar html so that it can be rendered to the DOM when this
+function is instanciated.
+
+we have set an onClick listener for the sign out button that calles the handleSignOut
+function.
+------------------------------------------------------------------------------------
+
+page-container.jsx:
+
+We are importing React from react
+
+we are saving an object of styles to a variable called styles and using that later in the 
+return of the JSX to set the style of the container class.
+
+our default exported function is taking in the children nodes as a parameter and is
+rendering them in the container div.
+------------------------------------------------------------------------------------
+
+redirect.jsx:
+
+default exporting a function called Redirect which is taking in a parameter of 'to'
+within that function we are defining a const variable to store a new instance of URL
+which is passing the window.location as a parameter
+
+next we are conditionally setting the path to either # or the 'to' route based on what we
+received in the 'to' parameter.
+finally, we are replacing the window.location with the new URL stored in url variable.
+lastly, we are returning null
+------------------------------------------------------------------------------------
+pages:
+
+auth.jsx: 
+
+importing useContext from react
+importing the Redirect component from file location
+importing the AuthForm component from file location
+importing AppContext from file location
+
+default exporting a new function component called AuthPage which takes 0 parameters
+
+within the function component we are destucturing from AppContext and assigning the
+variables user and route and assigning the function handleSIgn which is imported to us
+from the AppContext.
+
+next we are conditionally choosing the welcome text based on whether the user is on the 
+sign up or sign in path.
+
+next we are rendering the html with JSX to the DOM in the return statement.
+Within the card p-3 div we are instantiating a new AuthForm giving it a key so react
+can track changes setting the action to the route.path and on sign in we are 
+calling the handleSignIn function which we received from AppContext.
+------------------------------------------------------------------------------------
+
+home.jsx:
+
+importing:
+React and the useContext object from react
+Redirect component from our file location
+AppContext from our file location
+
+Setting styles in an object stored in the varialbe 'styles'
+
+default exporting functional component named Home which takes 0 params.
+
+within the functional component we are destructuring the user from AppContext and 
+assigning it to the variable user
+
+bnext we check if the value of user is not truthy and if so we instantiate a new
+instance of Redirect passing the to parameter of sign in.
+
+we then retund the html JSX to be rendered to the dom with a rick roll gif :)
+------------------------------------------------------------------------------------
+not-found.jsx:
+
+imports react from react
+sets styles for div in an object stored in styles variable
+defininig a new function component called NotFound which renders a page letting the
+user know they went to a page that was not found.
+
+------------------------------------------------------------------------------------
+app.jsx:
+
+we are imoporting React, jwtDecode, parseRoute Auth Home NotFound Navbar and PageContainer
+
+default exporting a functional compoenent named App
+
+we are assigning user and setUser from userstate
+
+When the component unmounts we call UseEffect which adds an event listener to the 
+window object to listen for hashchange with a callback function that sets the route
+
+next we handleSignin using a function
+this function takes in the result of the previous operation and uses that to destruc
+
+next we handle sign outs with the handleSignOut function which removes the token from local
+storage and sets the user to undefined.
+
+then we have our renderPage function which is destructuring and assiging route to
+the variable 'path'
+next we check if the path is empty if it is we instantiate a new Home component and return that
+if it = sign in or sign up we return a new instance of the Auth component
+and if it is not any of those we return a new instance of NotFound.
+
+if is authrizing is a truthy value we return null
+
+next we are setting the context values and storing them in contextValue
+
+Lastly we are returning the appContext.provider to allow sharing of data by wrapping
+the components we want to share with in the provider wrapper.
+------------------------------------------------------------------------------------
+index.jsx:
+
+imports React from react
+ReactDOM from react-dom/client
+App from our file location
+
+we are querying the dom for our root div and assigning it to the variable container
+next we are calling the createRoot method of the ReactDOM object and passing the container
+as an argument.
+
+finally, we are calling the render method on our root object and passing in the App
+component.
